@@ -1,5 +1,5 @@
 .game {
-  max-width : calc(3 * 100px);
+  max-width : calc((var(--board-size)) * 100px);
   margin : 0 auto;
   text-align : center;
   padding : 20px;
@@ -14,7 +14,7 @@
 
 .board {
   display : grid;
-  grid-template-columns : repeat(3, 1fr);
+  grid-template-columns : repeat(var(--board-size), 1fr);
   justify-content : center;
 }
 

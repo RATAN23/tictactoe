@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <TicTacToe/>
+     <TicTacToe boardSize ={4}/>
     </>
   )
 }
